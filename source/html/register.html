@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サイト</title>
+    
+    <!-- Bootstrap styles -->
+    <link href="../css/bootstrap.css" rel="stylesheet"/>
+    <!-- Customize styles -->
+    <link href="../css/style.css" rel="stylesheet"/>
+    <link href="../css/login.css" rel="stylesheet"/>
+    <!-- font awesome styles -->
+	<link href="../font-awesome/css/all.css" rel="stylesheet">
+  <!-- font awesome kitcode -->
+  <script src="https://kit.fontawesome.com/6183262038.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../ico/logo.ico" id="favicon">
+</head>
+<body>
+    
+
+
+    <div class="login">
+        
+        <h2 class="login-header">無料登録</h2>
+      
+        <form class="login-container" action="../../auth/register" method="POST">
+          <p><input type="email" name="email" placeholder="E-mail"></p>
+          <p><input type="password" name="password" placeholder="パスワード"></p>
+          <p><input type="password"             placeholder="パスワードを再確認する"></p>
+          <p><input type="submit" value="登録する"></p>
+          <p><input type="button" onclick="location.href='index.html'"value="戻る"></p>
+        </form>
+      </div>
+    
+
+
+</body>
+</html>
